@@ -1,4 +1,4 @@
-# File Formats
+# File Formats
 
 ## JSON
 
@@ -14,25 +14,25 @@ Most popular human readable format with schema flexibility.
 * XML e göre daha az yer tutuyor.
 * Satır bazlı sorgularda hızlı
 
-### Disadvantages
+### Disadvantages
 
 * Anahtar/Colon isimleri tekrar ediyor. Depolama verimsiz.
 * Attribute/anahtar bazlı gittiğimizde performans kötü.
 * Text based olduğu için parsing verimsizlik ?!?
 * No type forcing.
 
-## Fix Length
+## Fix Length
 
 Most popular format in old generation main frame systems.
 
-## Advantages
+### Advantages
 
 * Fast offset based parsing
 * Prevent memory/disk fragmentation (SLAB allocators)
 * Human readable.
 * Satır bazlı sorgularda hızlı
 
-## Disadvantages
+### Disadvantages
 
 * Redundant space usage
 * No type forcing.
@@ -44,16 +44,16 @@ Most popular format in old generation main frame systems.
 * Yeni alan sadece sona eklenebiliyor.
 
 
-## Delimited File System
+## Delimited File System
 
-## Advantages
+### Advantages
 
 * Lots of tool support.
 * Relatively compacted compared to Fix Length.
 * Human readable.
 * Satır bazlı sorgularda hızlı
 
-## Disadvantages
+### Disadvantages
 
 * Less readable compared JSON and fix length.
 * No type forcing.
@@ -65,10 +65,9 @@ Most popular format in old generation main frame systems.
 * Yeni alan sadece sona eklenebiliyor.
 
 
+## Custom Columnar Format
 
-## Custom Columnar Format
-
-## Advantages
+### Advantages
 
 * Relatively compacted compared to Fix Length.
 * Human readable.
@@ -76,7 +75,7 @@ Most popular format in old generation main frame systems.
 * Better compression
 * Filter performans ? 
 
-## Disadvantages
+### Disadvantages
 
 * Deletion ? 
 * Less readable compared JSON and fix length.

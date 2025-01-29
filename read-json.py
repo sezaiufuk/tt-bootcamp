@@ -3,7 +3,7 @@ from pprint import pprint
 
 profiles = []
 with open("data/profiles.jsonl") as fp:
-    for i,line in enumerate(fp):
+    for i, line in enumerate(fp):
         d = json.loads(line)
 
         profiles.append(d)

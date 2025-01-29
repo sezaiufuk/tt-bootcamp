@@ -4,6 +4,7 @@ fix:
 	uv run isort *.py
 	uv run ruff check *.py  --fix 
 	uv run ruff format --line-length 100 --target-version py311 *.py
+	uv run mypy *.py
 
 
 data/profiles.jsonl: 

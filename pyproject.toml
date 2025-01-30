@@ -13,3 +13,6 @@ dependencies = [
     "tqdm>=4.67.1",
     "types-tqdm>=4.67.0.20241221",
 ]
+
+[tool.uv.workspace]
+members = ["jepython"]

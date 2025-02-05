@@ -1,7 +1,6 @@
 from pathlib import Path
 import duckdb
 import pandas as pd
-from scipy import stats
 from sklearn.feature_extraction.text import CountVectorizer
 from scipy.special import kl_div
 from sklearn.feature_extraction.text import TfidfVectorizer

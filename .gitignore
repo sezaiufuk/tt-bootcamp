@@ -4,6 +4,11 @@ mapred/dfs
 __pycache__/
 .vscode
 .ipynb_checkpoints
+<<<<<<< sezaiufukoral
+=======
+
+# data items
+>>>>>>> main
 *.jsonl.gz
 *.tar.gz
 *.zip
